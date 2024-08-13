@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 02</title>
+</head>
+<body>
+    <h1><p>Manutenção de Usuários do Sistema Interno</p></h1>
+    <form action="" method="">
+        <h4><label for="login">Login:</label></h4>
+        <input type="text" id="login" placeholder="" required />
+        <br>
+        <h4><label for="senha">Senha:</label></h4>
+        <input type="text" id="senha" placeholder="" required />
+        <br>
+        <h4><label for="status">Status:</label></h4 >
+         <select id="status">
+            <option>Inativo</option>
+            <option>Ativo</option>
+         </select>
+        <br>
+        <br>
+        <fieldset>
+            <b><legend>Tipo</legend></b><required />
+            <input type="radio" id="tec" name="tipo">
+            <label for="tec">Técnico</label>
+
+            <input type="radio" id="prof" name="tipo">
+            <label for="prof">Professor</label>
+
+            <input type="radio" id="aluno" name="tipo">
+            <label for="aluno">Aluno</label>
+         </fieldset>
+        <br>
+        <h4><label for="data">Data Criação:</label></h4><required />
+        <input type="text" id="data" placeholder="" required />
+        <br>
+        <br>
+        <fieldset>
+            <b><legend>Perfil</legend></h4></b>
+            <input type="radio" id="convidado" name="perfil">
+            <label for="convidado">Convidado</label>
+
+            <input type="radio" id="admin" name="perfil">
+            <label for="admin">Administrador</label>
+         </fieldset>
+        
+         <h4><label for="obsevacao">Observações</label></h4>
+         <textarea id="observacao"></textarea>
+         <br>
+         <br>
+         <fieldset>
+            <b><legend>Módulos</legend></h4></b>
+
+            <input type="checkbox" id="compra"/>
+            <label for="compra">Compras</label>
+
+            <input type="checkbox" id="biblioteca"/>
+            <label for="biblioteca">Biblioteca</label>
+
+            <input type="checkbox" id="academico"/>
+            <label for="academico">Acadêmico</label>
+            <br>
+            <input type="checkbox" id="documentacao"/>
+            <label for="documentacao">Documentação</label>
+
+            <input type="checkbox" id="RH"/>
+            <label for="RH">Recursos Humanos</label>
+         </fieldset>
+         <br>
+         <input type="submit" value="Cadastrar">
+         <input type="reset" value="Excluir">
+
+         <style>
+            body{
+                background-color: rgb(235, 178, 225);
+            }
+            </style>
+</body>
+</html>
