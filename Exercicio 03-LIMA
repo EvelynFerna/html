@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 03</title>
+</head>
+<body>
+    <h1><p>Formulário</p></h1>
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="dados">
+        <br>
+        <br>
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereço" name="dados">
+        <br>
+        <br>
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="dados">
+        <br>
+        <br>
+        <label for="estado:">Estado:</label>
+         <select id="estado">
+            <option>Acre</option>
+            <option>Alagoas</option>
+            <option>Amapá</option>
+            <option>Amazonas</option>
+            <option>Bahia</option>
+            <option>Ceará</option>
+            <option>Distrito Federal</option>
+            <option>Espírito Santo</option>
+            <option>Goiás</option>
+            <option>Maranhão</option>
+            <option>Mato Grosso</option>
+            <option>Mato Grosso do Sul</option>
+            <option>Minas Gerais</option>
+            <option>Pará</option>
+            <option>Paraíba</option>
+            <option>Paraná</option>
+            <option>Pernambuco</option>
+            <option>Piauí</option>
+            <option>Rio de Janeiro</option>
+            <option>Rio Grande do Norte</option>
+            <option>Rio Grande do Sul</option>
+            <option>Rondônia</option>
+            <option>Roraima</option>
+            <option>Santa Catarina</option>
+            <option>São Paulo</option>
+            <option>Sergipe</option>
+            <option>Tocantins</option>
+    </select>
+     </fieldset>
+     <br>
+     <fieldset>
+        <legend>Dados profissionais</legend>
+        <br>
+        <label for="dados">Natureza do Cargo</label>
+        <br>
+        <input type="radio" id="gerencia" name="dados">
+        <label for="gerencia">Gerência</label>
+
+        <input type="radio" id="financia" name="dados">
+        <label for="financia">Financeiro</label>
+
+        <input type="radio" id="Recep" name="dados">
+        <label for="Recep">Recepção</label>
+
+        <input type="radio" id="Recep" name="admin">
+        <label for="admin">Administrativo</label>
+
+        <input type="radio" id="juridico" name="dados">
+        <label for="juridico">Jurídico</label>
+        <br>
+        <br>
+        <legend>Área de Interesse</legend></h4>
+
+        <input type="checkbox" id="computacao"/>
+        <label for="computacao">Computação</label>
+
+        <input type="checkbox" id="biologia"/>
+        <label for="biologia">Biologia</label>
+
+        <input type="checkbox" id="meio ambiente"/>
+        <label for="meio ambiente">Meio Ambiente</label>
+        <br>
+        <input type="checkbox" id="documentacao"/>
+        <label for="documentacao">Engenharia</label>
+
+        <input type="checkbox" id="historia"/>
+        <label for="historia">História</label>
+        <br>
+        <label for="info">Mini-curriculo:</label>
+         <textarea id="info"></textarea>
+         <br>
+    </fieldset>
+    <br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+    <style>
+        body{
+            background-color: rgb(214, 149, 240);
+        }
+    </style>
+</body>
+</html>
